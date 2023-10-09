@@ -1,0 +1,12 @@
+service: golang-kamal
+
+image: <your-username>/golang-kamal
+
+servers:
+  - <ip-address-of-your-server>
+
+registry:
+  server: ghcr.io
+  username: <your-username>
+  password:
+    - KAMAL_REGISTRY_PASSWORD
